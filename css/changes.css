@@ -54,6 +54,58 @@
     display: none;
 }
 
+.learning-modal .modal-card-wrapper .modal-card.card-1 {
+    background-image: none;
+    position: relative;
+}
+
+.learning-modal .modal-card-wrapper .modal-card.card-1 .animation-elements-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.learning-modal .modal-card-wrapper .modal-card.card-2 {
+    background-image: none;
+    position: relative;
+}
+
+.learning-modal .modal-card-wrapper .modal-card.card-2 .animation-elements-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.learning-modal .modal-card-wrapper .modal-card.card-4 {
+    background-image: none;
+    position: relative;
+}
+
+.learning-modal .modal-card-wrapper .modal-card.card-4 .animation-elements-4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.learning-modal .modal-card-wrapper .modal-card.card-6 {
+    background-image: none;
+    position: relative;
+}
+
+.learning-modal .modal-card-wrapper .modal-card.card-6 .animation-elements-6 {
+    position: absolute;
+    top: -47px;
+    right: -156px;
+}
+.learning-modal .modal-card-wrapper .modal-card.card-8 {
+    background-image: none;
+    position: relative;
+}
+
+.learning-modal .modal-card-wrapper .modal-card.card-8 .animation-elements-8 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 /* #downbutton a {
     bottom: 20px !important;
 } */
