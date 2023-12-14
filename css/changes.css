@@ -2,9 +2,10 @@
     height: 100vh;
 }
 
-body{
+body {
     background-color: #000;
 }
+
 .why {
     padding: 150px 0px 20px;
 }
@@ -25,6 +26,12 @@ body{
     padding: 50px 0 50px;
 }
 
+.road-map h2 {
+    margin-bottom: -100px;
+}
+.make-us-unique .container>h2 {
+    margin-bottom: 0px;
+}
 .services .service-card>span {
 
     margin-bottom: 0px;
