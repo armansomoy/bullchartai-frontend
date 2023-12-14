@@ -11,7 +11,7 @@
 }
 
 .right-content-wrapper {
-    padding-top: 148px;
+    padding-top: 128px;
 }
 
 #animation-container {
@@ -20,6 +20,17 @@
     width: 96%;
 }
 
+.how-it-works {
+    margin-bottom: 40px;
+}
+
+.how-it-works .lower-div .desktop-img-wrapper {
+    width: 140%;
+    height: 1000px;
+    margin: auto;
+    margin-bottom: -200px;
+    margin-left: -325px;
+}
 
 /*======== large device =========*/
 @media (min-width: 992px) and (max-width: 1199.98px) {}
