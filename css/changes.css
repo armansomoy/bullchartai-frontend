@@ -54,6 +54,10 @@
     display: none;
 }
 
+.learning-modal .modal-card-wrapper .modal-card {
+   overflow: hidden;
+}
+
 .learning-modal .modal-card-wrapper .modal-card.card-1 {
     background-image: none;
     position: relative;
@@ -86,6 +90,7 @@
     top: 0;
     right: 0;
 }
+
 .learning-modal .modal-card-wrapper .modal-card.card-6 {
     background-image: none;
     position: relative;
@@ -96,6 +101,7 @@
     top: -47px;
     right: -156px;
 }
+
 .learning-modal .modal-card-wrapper .modal-card.card-8 {
     background-image: none;
     position: relative;
@@ -106,6 +112,7 @@
     top: 0;
     right: 0;
 }
+
 /* #downbutton a {
     bottom: 20px !important;
 } */
@@ -146,6 +153,7 @@
 
     .banner {
         height: auto;
+        overflow: hidden;
     }
 
     .why {
