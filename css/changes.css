@@ -36,6 +36,24 @@
     padding-top: 120px;
 }
 
+.learning-modal .modal-card-wrapper .modal-card .content-wrapper h3 span {
+    color: #d2fe5b !important;
+}
+
+.token h2 {
+    margin-bottom: 80px;
+}
+
+.services .service-card {
+
+    box-shadow: 7px 6px 20px 2px #65b63ea1 !important;
+
+}
+
+.services .service-modal-wrapper:after {
+    display: none;
+}
+
 /* #downbutton a {
     bottom: 20px !important;
 } */
