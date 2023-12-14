@@ -14,8 +14,12 @@
     padding-top: 128px;
 }
 
+#downbutton a {
+    padding-top: 0px !important;
+}
+
 #animation-container {
-    margin-top: -60px;
+    margin-top: -65px;
     margin-left: -146px;
     width: 96%;
 }
@@ -32,8 +36,10 @@
     margin-left: -325px;
 }
 
-#downbutton {
-    padding-top: 120px;
+.demo a {
+    bottom: -20px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .learning-modal .modal-card-wrapper .modal-card .content-wrapper h3 span {
@@ -55,7 +61,7 @@
 }
 
 .learning-modal .modal-card-wrapper .modal-card {
-   overflow: hidden;
+    overflow: hidden;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-1 {
@@ -80,12 +86,34 @@
     right: 0;
 }
 
+.learning-modal .modal-card-wrapper .modal-card.card-3 {
+    background-image: none;
+    position: relative;
+}
+
+.learning-modal .modal-card-wrapper .modal-card.card-3 .animation-elements-3 {
+    position: absolute;
+    top: -65px;
+    right: -60px;
+}
+
 .learning-modal .modal-card-wrapper .modal-card.card-4 {
     background-image: none;
     position: relative;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-4 .animation-elements-4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.learning-modal .modal-card-wrapper .modal-card.card-5 {
+    background-image: none;
+    position: relative;
+}
+
+.learning-modal .modal-card-wrapper .modal-card.card-5 .animation-elements-5 {
     position: absolute;
     top: 0;
     right: 0;
@@ -101,6 +129,18 @@
     top: -47px;
     right: -156px;
 }
+
+.learning-modal .modal-card-wrapper .modal-card.card-7 {
+    background-image: none;
+    position: relative;
+}
+
+.learning-modal .modal-card-wrapper .modal-card.card-7 .animation-elements-7 {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+
 
 .learning-modal .modal-card-wrapper .modal-card.card-8 {
     background-image: none;
@@ -136,10 +176,11 @@
 /*======== Extra small device =========*/
 @media (max-width: 575.98px) {
 
+
     #animation-container {
         margin-top: 0px;
-        margin-left: -130px;
-        width: 311%;
+        /* margin-left: -130px;
+        width: 311%; */
         opacity: 0.8;
     }
 
