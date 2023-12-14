@@ -1,0 +1,17 @@
+.banner {
+    height: 100vh;
+}
+.why {
+    padding: 150px 0px 20px;
+}
+.left-content-wrapper{
+    padding-top: 350px;
+}
+.right-content-wrapper{
+    padding-top: 148px;
+}
+#animation-container{
+    margin-top: -60px;
+    margin-left: -146px;
+    width: 96%;
+}
