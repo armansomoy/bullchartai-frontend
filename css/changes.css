@@ -2,6 +2,9 @@
     height: 100vh;
 }
 
+body{
+    background-color: #000;
+}
 .why {
     padding: 150px 0px 20px;
 }
@@ -65,6 +68,10 @@
 
 .learning-modal .modal-card-wrapper .modal-card .content-wrapper h3 span {
     color: #d2fe5b !important;
+}
+
+.token {
+    background-color: #000000;
 }
 
 .token h2 {
