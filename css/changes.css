@@ -207,9 +207,10 @@ body{
 
     #animation-container {
         margin-top: 0px;
-        /* margin-left: -130px;
-        width: 311%; */
+        margin-left: 0px;
+        /* width: 311%; */
         opacity: 0.8;
+        width: 98%;
     }
 
     .left-content-wrapper {
