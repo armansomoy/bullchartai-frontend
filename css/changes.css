@@ -7,7 +7,7 @@
 }
 
 .left-content-wrapper {
-    padding-top: 350px;
+    padding-top: 400px;
 }
 
 .right-content-wrapper {
@@ -37,7 +37,7 @@
 }
 
 .demo a {
-    bottom: -20px;
+    bottom: -110px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
