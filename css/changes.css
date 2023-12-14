@@ -32,6 +32,13 @@
     margin-left: -325px;
 }
 
+#downbutton a {
+    bottom: 20px !important;
+}
+#downbutton a span {
+   
+    display: none;
+}
 /*======== large device =========*/
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
