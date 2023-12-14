@@ -7,11 +7,32 @@
 }
 
 .left-content-wrapper {
-    padding-top: 400px;
+    padding-top: 350px;
 }
 
 .right-content-wrapper {
     padding-top: 128px;
+}
+
+.banner .inner-banner {
+    padding-top: 60px;
+}
+
+.make-us-unique {
+    padding: 50px 0 50px;
+}
+
+.services .service-card>span {
+
+    margin-bottom: 0px;
+}
+
+.services .service-card {
+    height: 400px;
+}
+
+.services .service-card ul {
+    padding-top: 30px;
 }
 
 #downbutton a {
@@ -19,9 +40,9 @@
 }
 
 #animation-container {
-    margin-top: -65px;
-    margin-left: -146px;
-    width: 96%;
+    margin-top: -70px;
+    margin-left: -147px;
+    width: 93%;
 }
 
 .how-it-works {
