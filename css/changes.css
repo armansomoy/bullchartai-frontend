@@ -276,7 +276,7 @@ body {
         top: 81px;
         left: -111px;
         width: 300%;
-        opacity: .6;
+        opacity: .5;
     }
 
     .services .service-card {
@@ -319,5 +319,9 @@ body {
     .learning-modal .modal-card-wrapper .modal-card.card-8 .animation-elements-8 {
         width: 50%;
         top: 0;
+    }
+
+    .road-map h2 {
+        margin-bottom: 0px;
     }
 }
