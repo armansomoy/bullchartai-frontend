@@ -29,12 +29,18 @@ body {
 .road-map h2 {
     margin-bottom: -30px;
 }
+
 .make-us-unique .container>h2 {
     margin-bottom: 0px;
 }
+
 .services .service-card>span {
 
     margin-bottom: 0px;
+}
+
+.make-us-unique .mobile-version {
+    display: none;
 }
 
 .services .service-card {
@@ -48,11 +54,18 @@ body {
 #downbutton a {
     padding-top: 0px !important;
 }
-
+.banner .inner-banner {
+    position: relative;
+}
 #animation-container {
     margin-top: -70px;
     margin-left: -147px;
-    width: 93%;
+    text-align: left;
+    position: absolute;
+    top: 81px;
+    left: -25px;
+    width: 250%;
+    opacity: .7;
 }
 
 .how-it-works {
@@ -84,9 +97,11 @@ body {
 .token h2 {
     margin-bottom: 50px;
 }
-.why .why-card-wrapper .why-card h3 span{
+
+.why .why-card-wrapper .why-card h3 span {
     color: #d2fe5b !important
 }
+
 .services .service-card {
 
     box-shadow: 7px 6px 20px 2px #65b63ea1 !important;
@@ -243,4 +258,11 @@ body {
         display: none;
     }
 
+    .make-us-unique .mobile-version {
+        display: block;
+    }
+
+    .make-us-unique .web-version {
+        display: none;
+    }
 }

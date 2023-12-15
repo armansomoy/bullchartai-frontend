@@ -610,11 +610,23 @@
             <h2 class="scramble-text-3" data-scramble-line1="What Makes Us Unique" data-scramble-line2=""></h2>
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="row" id="animation13" style="text-align: left;">
+                    <div class="row web-version" id="animation13" style="text-align: left;">
                         <script>
                             var animation = bodymovin.loadAnimation({
                                 container: document.getElementById('animation13'),
                                 path: './animations/what-makes-you-unique.json',
+                                renderer: 'svg',
+                                loop: true,
+                                autoplay: true,
+                                name: "Demo Animation",
+                            });
+                        </script>
+                    </div>
+                    <div class="row mobile-version" id="animation14" style="text-align: left;">
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('animation14'),
+                                path: './animations/Unique-mobile.json',
                                 renderer: 'svg',
                                 loop: true,
                                 autoplay: true,
