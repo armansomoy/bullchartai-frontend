@@ -54,18 +54,16 @@ body {
 #downbutton a {
     padding-top: 0px !important;
 }
+
 .banner .inner-banner {
     position: relative;
 }
+
 #animation-container {
     margin-top: -70px;
     margin-left: -147px;
     text-align: left;
-    position: absolute;
-    top: 81px;
-    left: -25px;
-    width: 250%;
-    opacity: .7;
+
 }
 
 .how-it-works {
@@ -264,5 +262,62 @@ body {
 
     .make-us-unique .web-version {
         display: none;
+    }
+
+    .banner .inner-banner {
+        position: relative;
+    }
+
+    #animation-container {
+        margin-top: -70px;
+        margin-left: -147px;
+        text-align: left;
+        position: absolute;
+        top: 81px;
+        left: -111px;
+        width: 300%;
+        opacity: .6;
+    }
+
+    .services .service-card {
+        height: auto;
+    }
+
+    .learning-modal .modal-card-wrapper .modal-card.card-1 .animation-elements-1 {
+        width: 50%;
+    }
+
+    .learning-modal .modal-card-wrapper .modal-card.card-2 .animation-elements-2 {
+        width: 50%;
+    }
+
+    .learning-modal .modal-card-wrapper .modal-card.card-3 .animation-elements-3 {
+        width: 63%;
+        top: -17px;
+        right: 0;
+    }
+
+    .learning-modal .modal-card-wrapper .modal-card.card-4 .animation-elements-4 {
+        width: 50%;
+    }
+
+    .learning-modal .modal-card-wrapper .modal-card.card-5 .animation-elements-5 {
+        width: 50%;
+    }
+
+    .learning-modal .modal-card-wrapper .modal-card.card-6 .animation-elements-6 {
+        width: 73%;
+        top: 0;
+        right: -34px;
+    }
+
+    .learning-modal .modal-card-wrapper .modal-card.card-7 .animation-elements-7 {
+        width: 50%;
+        top: 0;
+    }
+
+    .learning-modal .modal-card-wrapper .modal-card.card-8 .animation-elements-8 {
+        width: 50%;
+        top: 0;
     }
 }
