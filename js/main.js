@@ -125,6 +125,10 @@ $(document).ready(function() {
                     console.log("ok")
                     headingAnimation(document.querySelector('.scramble-text-9'));
                 }
+                if (sectionId === 'beneficiaries'){
+                    console.log("ok")
+                    headingAnimation(document.querySelector('.scramble-text-10'));
+                }
             }
         });
     });

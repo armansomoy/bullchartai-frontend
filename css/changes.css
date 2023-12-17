@@ -66,6 +66,12 @@ body {
 
 }
 
+#beneficiaries{
+    padding: 60px 0px;
+}
+#beneficiaries h2{
+    padding-bottom: 40px;
+}
 .how-it-works {
     margin-bottom: 40px;
 }
