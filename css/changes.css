@@ -83,6 +83,9 @@ body {
     margin-bottom: -203px;
     margin-left: -255px;
 }
+.service-modal-wrapper ul li{
+    display: block;
+}
 
 .demo a {
     bottom: -110px;
