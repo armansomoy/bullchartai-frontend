@@ -19,6 +19,9 @@ header .logo img {
 .banner .right-content-wrapper p {
   font-size: 22.45px;
 }
+.profit .content-wrapper{
+    margin-bottom: -60px;
+}
 body {
   background-color: #000;
 }
