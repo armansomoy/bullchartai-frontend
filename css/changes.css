@@ -1,215 +1,224 @@
 .banner {
-    height: 100vh;
+  height: 100vh;
 }
-
+header nav {
+  text-align: start;
+}
+header nav ul li {
+  margin-right: 20px !important;
+}
+header nav ul li:last-of-type {
+  margin-left: 0;
+}
+header .btn-style span {
+  font-size: 17px;
+}
+header .logo img {
+    width: 80%;
+}
 body {
-    background-color: #000;
+  background-color: #000;
 }
 
 .why {
-    padding: 150px 0px 20px;
+  padding: 150px 0px 20px;
 }
 
 .left-content-wrapper {
-    padding-top: 350px;
+  padding-top: 350px;
 }
 
 .right-content-wrapper {
-    padding-top: 173px;
+  padding-top: 173px;
 }
 
 .banner .inner-banner {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 .make-us-unique {
-    padding: 50px 0 50px;
+  padding: 50px 0 50px;
 }
 
 .road-map h2 {
-    margin-bottom: -30px;
+  margin-bottom: -30px;
 }
 
-.make-us-unique .container>h2 {
-    margin-bottom: 0px;
+.make-us-unique .container > h2 {
+  margin-bottom: 0px;
 }
 
-.services .service-card>span {
-
-    margin-bottom: 0px;
+.services .service-card > span {
+  margin-bottom: 0px;
 }
 
 .make-us-unique .mobile-version {
-    display: none;
+  display: none;
 }
 
 .services .service-card {
-    height: 400px;
+  height: 400px;
 }
 
 .services .service-card ul {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 #downbutton a {
-    padding-top: 0px !important;
+  padding-top: 0px !important;
 }
 
 .banner .inner-banner {
-    position: relative;
+  position: relative;
 }
 
 #animation-container {
-    margin-top: -70px;
-    margin-left: -147px;
-    text-align: left;
-
+  margin-top: -70px;
+  margin-left: -147px;
+  text-align: left;
 }
 
-#beneficiaries{
-    padding: 60px 0px;
+#beneficiaries {
+  padding: 60px 0px;
 }
-#beneficiaries h2{
-    padding-bottom: 40px;
+#beneficiaries h2 {
+  padding-bottom: 40px;
 }
 .how-it-works {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .how-it-works .lower-div .desktop-img-wrapper {
-    width: 130%;
-    height: 950px;
-    margin: auto;
-    margin-bottom: -203px;
-    margin-left: -255px;
+  width: 130%;
+  height: 950px;
+  margin: auto;
+  margin-bottom: -203px;
+  margin-left: -255px;
 }
-.service-modal-wrapper ul li{
-    display: block;
+.service-modal-wrapper ul li {
+  display: block;
 }
 
 .demo a {
-    bottom: -110px;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  bottom: -110px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .learning-modal .modal-card-wrapper .modal-card .content-wrapper h3 span {
-    color: #d2fe5b !important;
+  color: #d2fe5b !important;
 }
 
 .token {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .token h2 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .why .why-card-wrapper .why-card h3 span {
-    color: #d2fe5b !important
+  color: #d2fe5b !important;
 }
 
 .services .service-card {
-
-    box-shadow: 7px 6px 20px 2px #65b63ea1 !important;
-
+  box-shadow: 7px 6px 20px 2px #65b63ea1 !important;
 }
 
 .services .service-modal-wrapper:after {
-    display: none;
+  display: none;
 }
 
 .learning-modal .modal-card-wrapper .modal-card {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-1 {
-    background-image: none;
-    position: relative;
+  background-image: none;
+  position: relative;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-1 .animation-elements-1 {
-    position: absolute;
-    top: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-2 {
-    background-image: none;
-    position: relative;
+  background-image: none;
+  position: relative;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-2 .animation-elements-2 {
-    position: absolute;
-    top: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-3 {
-    background-image: none;
-    position: relative;
+  background-image: none;
+  position: relative;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-3 .animation-elements-3 {
-    position: absolute;
-    top: -65px;
-    right: -60px;
+  position: absolute;
+  top: -65px;
+  right: -60px;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-4 {
-    background-image: none;
-    position: relative;
+  background-image: none;
+  position: relative;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-4 .animation-elements-4 {
-    position: absolute;
-    top: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-5 {
-    background-image: none;
-    position: relative;
+  background-image: none;
+  position: relative;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-5 .animation-elements-5 {
-    position: absolute;
-    top: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-6 {
-    background-image: none;
-    position: relative;
+  background-image: none;
+  position: relative;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-6 .animation-elements-6 {
-    position: absolute;
-    top: -47px;
-    right: -156px;
+  position: absolute;
+  top: -47px;
+  right: -156px;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-7 {
-    background-image: none;
-    position: relative;
+  background-image: none;
+  position: relative;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-7 .animation-elements-7 {
-    position: absolute;
-    top: -50px;
-    right: 0;
+  position: absolute;
+  top: -50px;
+  right: 0;
 }
 
-
 .learning-modal .modal-card-wrapper .modal-card.card-8 {
-    background-image: none;
-    position: relative;
+  background-image: none;
+  position: relative;
 }
 
 .learning-modal .modal-card-wrapper .modal-card.card-8 .animation-elements-8 {
-    position: absolute;
-    top: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 /* #downbutton a {
@@ -221,116 +230,114 @@ body {
     display: none;
 } */
 /*======== large device =========*/
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
 
 /*======== medium device =========*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
 
 /*======== small device =========*/
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
 
 /*======== Extra small device =========*/
 @media (max-width: 575.98px) {
+  #animation-container {
+    margin-top: 0px;
+    margin-left: 0px;
+    /* width: 311%; */
+    opacity: 0.8;
+    width: 98%;
+  }
 
+  .left-content-wrapper {
+    padding-top: 0;
+  }
 
-    #animation-container {
-        margin-top: 0px;
-        margin-left: 0px;
-        /* width: 311%; */
-        opacity: 0.8;
-        width: 98%;
-    }
+  .right-content-wrapper {
+    padding-top: 0;
+  }
 
-    .left-content-wrapper {
-        padding-top: 0;
-    }
+  .banner {
+    height: auto;
+    overflow: hidden;
+  }
 
-    .right-content-wrapper {
-        padding-top: 0;
-    }
+  .why {
+    padding: 30px 0px 20px;
+  }
 
-    .banner {
-        height: auto;
-        overflow: hidden;
-    }
+  #downbutton {
+    display: none;
+  }
 
-    .why {
-        padding: 30px 0px 20px;
-    }
+  .make-us-unique .mobile-version {
+    display: block;
+  }
 
-    #downbutton {
-        display: none;
-    }
+  .make-us-unique .web-version {
+    display: none;
+  }
 
-    .make-us-unique .mobile-version {
-        display: block;
-    }
+  .banner .inner-banner {
+    position: relative;
+  }
 
-    .make-us-unique .web-version {
-        display: none;
-    }
+  #animation-container {
+    margin-top: -70px;
+    margin-left: -75px;
+    text-align: left;
+    position: absolute;
+    top: 81px;
+    left: -111px;
+    width: 300%;
+    opacity: 0.5;
+  }
 
-    .banner .inner-banner {
-        position: relative;
-    }
+  .services .service-card {
+    height: auto;
+  }
 
-    #animation-container {
-        margin-top: -70px;
-        margin-left: -75px;
-        text-align: left;
-        position: absolute;
-        top: 81px;
-        left: -111px;
-        width: 300%;
-        opacity: .5;
-    }
+  .learning-modal .modal-card-wrapper .modal-card.card-1 .animation-elements-1 {
+    width: 50%;
+  }
 
-    .services .service-card {
-        height: auto;
-    }
+  .learning-modal .modal-card-wrapper .modal-card.card-2 .animation-elements-2 {
+    width: 50%;
+  }
 
-    .learning-modal .modal-card-wrapper .modal-card.card-1 .animation-elements-1 {
-        width: 50%;
-    }
+  .learning-modal .modal-card-wrapper .modal-card.card-3 .animation-elements-3 {
+    width: 63%;
+    top: -17px;
+    right: 0;
+  }
 
-    .learning-modal .modal-card-wrapper .modal-card.card-2 .animation-elements-2 {
-        width: 50%;
-    }
+  .learning-modal .modal-card-wrapper .modal-card.card-4 .animation-elements-4 {
+    width: 50%;
+  }
 
-    .learning-modal .modal-card-wrapper .modal-card.card-3 .animation-elements-3 {
-        width: 63%;
-        top: -17px;
-        right: 0;
-    }
+  .learning-modal .modal-card-wrapper .modal-card.card-5 .animation-elements-5 {
+    width: 50%;
+  }
 
-    .learning-modal .modal-card-wrapper .modal-card.card-4 .animation-elements-4 {
-        width: 50%;
-    }
+  .learning-modal .modal-card-wrapper .modal-card.card-6 .animation-elements-6 {
+    width: 73%;
+    top: 0;
+    right: -34px;
+  }
 
-    .learning-modal .modal-card-wrapper .modal-card.card-5 .animation-elements-5 {
-        width: 50%;
-    }
+  .learning-modal .modal-card-wrapper .modal-card.card-7 .animation-elements-7 {
+    width: 50%;
+    top: 0;
+  }
 
-    .learning-modal .modal-card-wrapper .modal-card.card-6 .animation-elements-6 {
-        width: 73%;
-        top: 0;
-        right: -34px;
-    }
+  .learning-modal .modal-card-wrapper .modal-card.card-8 .animation-elements-8 {
+    width: 50%;
+    top: 0;
+  }
 
-    .learning-modal .modal-card-wrapper .modal-card.card-7 .animation-elements-7 {
-        width: 50%;
-        top: 0;
-    }
-
-    .learning-modal .modal-card-wrapper .modal-card.card-8 .animation-elements-8 {
-        width: 50%;
-        top: 0;
-    }
-
-    .road-map h2 {
-        margin-bottom: 0px;
-    }
+  .road-map h2 {
+    margin-bottom: 0px;
+  }
 }
