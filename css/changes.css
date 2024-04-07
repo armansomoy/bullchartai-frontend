@@ -19,8 +19,18 @@ header .logo img {
 .banner .right-content-wrapper p {
   font-size: 22.45px;
 }
-.profit .content-wrapper{
-    margin-bottom: -60px;
+.profit .content-wrapper {
+  margin-bottom: -60px;
+}
+#video-part video {
+  height: 500px;
+  -webkit-box-shadow: 0px 0px 28px 0px rgba(100, 182, 62, 1);
+  -moz-box-shadow: 0px 0px 28px 0px rgba(100, 182, 62, 1);
+  box-shadow: 0px 0px 28px 0px rgba(100, 182, 62, 1);
+}
+.banner .left-content-wrapper h1 {
+  font-size: 29.606px;
+  line-height: 43.506px;
 }
 body {
   background-color: #000;
