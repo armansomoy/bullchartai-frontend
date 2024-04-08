@@ -129,6 +129,10 @@ $(document).ready(function() {
                     console.log("ok")
                     headingAnimation(document.querySelector('.scramble-text-10'));
                 }
+                if (sectionId === 'video-part'){
+                    console.log("ok")
+                    headingAnimation(document.querySelector('.scramble-text-11'));
+                }
             }
         });
     });
