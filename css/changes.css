@@ -21,17 +21,20 @@ header .btn-style span {
   margin-bottom: -60px;
 }
 #video-part {
-  padding: 60px 0px;
+  padding: 60px 0px 0px;
 }
 #video-part h2 {
   margin-bottom: 30px;
 }
 #video-part video {
-  height: 420px;
-  width: 750px;
+  height: 470px;
+  width: 800px;
   -webkit-box-shadow: 0px 0px 28px 0px rgba(100, 182, 62, 1);
   -moz-box-shadow: 0px 0px 28px 0px rgba(100, 182, 62, 1);
   box-shadow: 0px 0px 28px 0px rgba(100, 182, 62, 1);
+}
+.banner .left-content-wrapper h1 i{
+  color: #bdd71e;
 }
 .banner .left-content-wrapper h1 {
   font-size: 29.606px;
@@ -45,7 +48,7 @@ body {
   margin: 20px 5px !important;
 }
 .why {
-  padding: 150px 0px 20px;
+  padding: 100px 0px 20px;
 }
 
 .left-content-wrapper {
