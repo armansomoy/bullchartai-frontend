@@ -2,7 +2,7 @@
   height: 100vh;
 }
 header nav {
-  text-align: start;
+  text-align: end;
 }
 header nav ul li {
   margin-right: 20px !important;
@@ -21,7 +21,8 @@ header .btn-style span {
   margin-bottom: -60px;
 }
 #video-part video {
-  height: 500px;
+  height: 370px;
+  width: 650px;
   -webkit-box-shadow: 0px 0px 28px 0px rgba(100, 182, 62, 1);
   -moz-box-shadow: 0px 0px 28px 0px rgba(100, 182, 62, 1);
   box-shadow: 0px 0px 28px 0px rgba(100, 182, 62, 1);
@@ -243,6 +244,41 @@ body {
    
     display: none;
 } */
+/*======== extra large device =========*/
+@media (min-width: 1024px) and (max-width: 1600px) {
+  header .btn-style span {
+    font-size: 13px;
+  }
+  nav .btn-style {
+    width: 200px;
+    gap: 5px;
+  }
+  header nav ul li a {
+    font-size: 16px;
+  }
+  header .logo {
+    text-align: right;
+  }
+  header .logo img {
+    width: 85%;
+    height: auto;
+  }
+  .banner .left-content-wrapper h1 {
+    font-size: 26px;
+    line-height: 33px;
+  }
+  .left-content-wrapper {
+    padding-top: 270px;
+  }
+  .banner {
+    height: 110vh;
+  }
+  header .btn-style .icon-wrapper {
+    width: 25px;
+    height: 30px;
+  }
+}
+
 /*======== large device =========*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 }
@@ -257,13 +293,27 @@ body {
 
 /*======== Extra small device =========*/
 @media (max-width: 575.98px) {
-  #animation-container {
-    margin-top: 0px;
-    margin-left: 0px;
-    /* width: 311%; */
-    opacity: 0.8;
-    width: 98%;
+  #video-part video {
+    height: auto;
+    width: 300px;
   }
+  header .btn-style span {
+    font-size: 15px;
+  }
+  .banner .left-content-wrapper h1 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  #animation-container {
+    margin-left: 0 !important;
+    width: 250% !important;
+}
+  /* #animation-container {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    opacity: 0.8;
+    width: 98% !important;
+  } */
 
   .left-content-wrapper {
     padding-top: 0;
