@@ -133,6 +133,10 @@ $(document).ready(function() {
                     console.log("ok")
                     headingAnimation(document.querySelector('.scramble-text-11'));
                 }
+                if (sectionId === 'how-priceStabilizer-work'){
+                    console.log("ok")
+                    headingAnimation(document.querySelector('.scramble-text-12'));
+                }
             }
         });
     });
