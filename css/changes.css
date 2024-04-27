@@ -65,7 +65,7 @@
 
 .how-priceStabilizer-work .lower-div {
   position: relative;
-  padding: 200px 0 130px;
+  padding: 200px 0 250px;
 }
 
 @media (max-width: 1024px) {
@@ -85,7 +85,10 @@
   height: 800px;
   margin: auto;
 }
-
+.how-priceStabilizer-work .lower-div .desktop-img-wrapper svg{
+  height: 140% !important;
+  /* margin-bottom: 30px !important; */
+}
 @media (max-width: 1024px) {
   .how-priceStabilizer-work .lower-div .desktop-img-wrapper {
     display: none;
