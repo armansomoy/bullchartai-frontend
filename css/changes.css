@@ -8,7 +8,11 @@
 
 @media screen and (max-width: 767px) {
   .how-priceStabilizer-work {
-    background-position: 68% -60px;
+    background-position: 70% -2%;
+    background-size: 500%;
+  }
+  .how-priceStabilizer-work .lower-div .desktop-img-wrapper svg {
+    height: auto !important;
   }
 }
 
@@ -21,6 +25,7 @@
 .how-priceStabilizer-work .upper-div .content-wrapper {
   max-width: 871px;
   margin: 0 auto;
+  height: 321px;
 }
 
 @media (max-width: 991px) {
@@ -85,13 +90,13 @@
   height: 800px;
   margin: auto;
 }
-.how-priceStabilizer-work .lower-div .desktop-img-wrapper svg{
+.how-priceStabilizer-work .lower-div .desktop-img-wrapper svg {
   height: 140% !important;
   /* margin-bottom: 30px !important; */
 }
 @media (max-width: 1024px) {
   .how-priceStabilizer-work .lower-div .desktop-img-wrapper {
-    display: none;
+    display: block;
   }
 }
 
